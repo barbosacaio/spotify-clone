@@ -1,6 +1,7 @@
 # spotify-clone
 This is a project created to study basic front-end website development to simulate a Spotify clone page.
 
+- [Website Preview](https://barbosacaio.github.io/spotify-clone/)
 - [CSS Information](#css-information)
 - [Page Organization](#page-organization)
 - [Technologies Used](#technologies-used)
