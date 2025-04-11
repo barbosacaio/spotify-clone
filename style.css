@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif, "Helvetica Neue", Helvetica, Arial;
+}
+
+#login-modal{
+    background-color: #121212;
+    color: #FFFFFF;
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    height: 80vh;
+    width: 75vh;
+    margin-top: 5vh;
+}
+
+.social-login-button{
+    border: #494949 .01px solid;
+    border-radius: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vh;
+    margin: .5vh 0;
+}
+
+.social-login-button:hover{
+    border-color: #FFFFFF;
+}
+
+.social-login-button img{
+    width: 2vh;
+    display: flex-inline;
+    padding: 0 1vh 0 1vh;
+}
+
+#login-divider{
+    width: 50vh;
+    border-color: #494949;
+    margin: 4vh 0;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+#login-form input{
+    background-color: #121212;
+    border: #494949 .01px solid;
+    border-radius: 4px;
+    padding: 1.5vh;
+    font-size: medium;
+    margin: 1vh 0;
+    width: 32vh;
+    color: #FFFFFF;
+}
+
+#login-form input::placeholder{
+    color: #919191;
+}
+
+#login-form p{
+    margin: 0;
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+#login-form button{
+    color: #121212;
+    background-color: #1ED760;
+    padding: 2vh;
+    font-weight: bold;
+    border: #1ED760 0.1px solid;
+    border-radius: 3vh;
+    margin: 1.5vh 0;
+}
+
+#login-form button:hover{
+    background-color: #4CE080;
+    font-size: 1.45vh;
+}
+
+#login-form-options{
+    display: flex;
+    flex-direction: column;
+    color: #919191;
+    font-weight: normal;
+    font-size: large;
+}
+
+#login-form-options a, #login-form-options p{
+    align-self: center;
+    margin: .4vh;
+}
+
+#login-form-options a{
+    color: #FFFFFF;
+}
+
+#login-form-options a:hover{
+    color: #1ED760;
+}
+
+footer{
+    display: flex;
+    background-color: #121212;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3vh;
+    color: #919191;
+    font-size: smaller;
+    position: fixed;
+    bottom: 0;
+    padding: 1.3vh;
+}
+
+footer a{
+    color: #919191;
+}
